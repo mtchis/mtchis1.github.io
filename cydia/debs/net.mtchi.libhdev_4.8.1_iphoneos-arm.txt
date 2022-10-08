@@ -1,0 +1,14 @@
+ComputeHash 3.0
+
+
+File: 	C:\Users\ASUS\Documents\GitHub\mtchis.github.io\cydia\debs\net.mtchi.libhdev_4.8.1_iphoneos-arm.deb
+
+MD5:  	9d08e737de8d1de3bc68e27936d1a950
+
+SHA1:  	55b91d41d587fb3ae703a6be6ee0b55c2b6f513d
+
+SAH256:	fdcf4ba4c59c21d28ecb7b2e2d31e2b448522a9b89f8096531a33d5944f60633
+
+SHA384:	2c3343611c6fffe3caf45ae6c71741efdfaa6fb0826c49fd28e642e142b1dda5f64ea5afb3abc4e38c64a2ee72bf0199
+
+SHA512:	b2d570a0dc41524b74d7bff0c70fb1b29f5156ab3bd78102af745f6d13fe03c42ae56e7614dd0aa62772459a2835791f2050f7cef9759633ae193d30d4228175

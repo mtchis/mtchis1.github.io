@@ -1,0 +1,14 @@
+ComputeHash 3.0
+
+
+File: 	C:\Users\ASUS\Documents\GitHub\mtchis.github.io\cydia\debs\net.mtchi.tiktokgod_4.0.0_iphoneos-arm.deb
+
+MD5:  	4153c5cb3265c0b41a7c409d5a51f282
+
+SHA1:  	5a6fc7e0993c0f4f6e2d3c81711fd6e753623c1f
+
+SAH256:	71c28854abad47ec19745e1a28c657dffedabab43da995d61e1e594b3812ccbb
+
+SHA384:	8546e75d6196ef4fa5519daf6d6ea66971dd8092b8d4c9f3982730849ddfb0599ebb50875fec2eb2f46939e9e5e72613
+
+SHA512:	ecea53dce8fa3335e9ad8163be218d734b69c37faaac1a1c46542c9f33a12516587d391f907af7242af36806f2aaf511a6da0b4d012b86a75289f8f91479b611

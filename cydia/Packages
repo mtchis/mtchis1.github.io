@@ -1,9 +1,9 @@
-Package: com.chijb.libhdev
+Package: com.haoict.libhdev
 Version: 4.8.1
 Architecture: iphoneos-arm
 Maintainer: Mai Thien Chi <hao.ict56@gmail.com>
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
-Filename: ./debs/com.chijb.libhdev_4.8.1_iphoneos-arm.deb
+Filename: ./debs/com.haoict.libhdev_4.8.1_iphoneos-arm.deb
 Size: 46954
 MD5sum: 9d08e737de8d1de3bc68e27936d1a950
 SHA1: 55b91d41d587fb3ae703a6be6ee0b55c2b6f513d
@@ -17,19 +17,19 @@ Description: This is a developer library for better preferences and useful utili
  - v4.8.0: Improve performance & reduce package size
  - v4.7.0: Improve media download & fix preferences cell color
  .
- Github: https://github.com/chijb/libhdev-public
+ Github: https://github.com/haoict/libhdev-public
  .
- © 2021 chijb
+ © 2021 haoict
 Tag: role::developer
 Author: Mai Thien Chi <hao.ict56@gmail.com>
 Name: libhdev
 
-Package: com.chijb.tiktokgod
+Package: net.mtchi.tiktokgod
 Version: 4.0.0
 Architecture: iphoneos-arm
 Maintainer: Mai Thien Chi
-Depends: mobilesubstrate, preferenceloader, com.chijb.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.chijb.tiktokgod_4.0.0_iphoneos-arm.deb
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
+Filename: ./debs/com.haoict.tiktokgod_4.0.0_iphoneos-arm.deb
 Size: 71834
 MD5:  	4153c5cb3265c0b41a7c409d5a51f282
 SHA1:  	5a6fc7e0993c0f4f6e2d3c81711fd6e753623c1f
@@ -37,7 +37,7 @@ SAH256:	71c28854abad47ec19745e1a28c657dffedabab43da995d61e1e594b3812ccbb
 Section: Tweaks
 Description: The best tweak for TikTok app.
  The best tweak for TikTok app.
- Change log: https://github.com/chijb/tiktok-god/releases
+ Change log: https://github.com/haoict/tiktok-god/releases
  .
  Features:
  - Remove Ads

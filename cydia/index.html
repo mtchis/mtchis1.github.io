@@ -1,41 +1,81 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@mtchis 
+mtchis
+/
+mtchis.github.io
+Public
+Code
+Issues
+2
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+mtchis.github.io/cydia/index.html
+@hyperdefined
+hyperdefined updated the repo links to be correct
+Latest commit b37d115 on 24 Mar, 2021
+ History
+ 2 contributors
+@mtchis@hyperdefined
+626 lines (609 sloc)  22.6 KB
+
+<!DOCTYPE html>
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="nI1viW5j60gr4iLN3oail8c0VlUMCmwL9guqpVF0lBc" />
-    <meta name="description" content="Trang web tải về Phần mềm Jailbreak và Ứng dụng tiện ích cho iPhone iPad hoặc iPod touch nhanh nhất.">
-    <meta name="keywords" content="Cydia, Jailbreak iOS, Apple, App Store, unc0ver, th0r, electra jailbreak, jailbreak, kenhtao, iOS">
-    <meta name="author" content="IPA.MTCHI.NET">
-    <title>Kho IPA Jailbreak & Tweaks++ </title>
-    <meta property="og:locale" content="en_US"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Kho IPA Jailbreak & Tweaks++ miễn phí"/>
-    <meta property="og:description" content="Trang web tải về Phần mềm Jailbreak và Ứng dụng tiện ích cho iPhone iPad hoặc iPod touch nhanh nhất."/>
-    <meta property="og:url" content="https://ipa.mtchi.net/"/>
-    <!-- <meta property="og:site_name" content="IPA.KENHTAO.NET"/>
-    <meta property="fb:app_id" content="310782786365633"/> -->
-    <!-- <meta property="og:image" content="./images/logo-ipa.jpg"/>
-    <meta property="og:image:secure_url" content="images/logo-ipa.jpg"/> -->
-    <meta property="og:title" content="mtchi Repo" />
+  <head>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta property="og:title" content="mtchis Repo" />
     <meta property="og:image" content="https://mtchis.github.io/cydia/CydiaIcon.png" />
-    <link rel="stylesheet" href="./framework7.ios.min.css">
-    <link rel="stylesheet" href="./framework7.ios.colors.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./main.css"> 
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/logos.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101622559-3"></script>
+    <title>mtchis Repository</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="./CydiaIcon.png" />
     <link rel="apple-touch-icon" href="./CydiaIcon.png" />
-    
-     
-     </head>
-<body style="background-color:transparent">
-    <div class="head-section">
+
+    <link rel="stylesheet" href="./main.css" />
+    <noscript>
+      <style>
+        html {
+          background: transparent;
+        }
+        body {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        body > header {
+          display: none;
+        }
+        body > header + p {
+          margin-top: -20px;
+        }
+        #about #add-to-cydia {
+          display: none;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <header role="banner">
+      <h1>
+        <div class="header-banner">
+          <img src="CydiaIcon.png" width="32" height="32" alt="mtchis repo" />  
+          <span>Welcome to mtchis Repository</span>
+        </div>
+      </h1>
+    </header>
+
+    <main id="content" role="main">
+      <div class="head-section">
         <ul id="about">
           <li>
             <a
@@ -50,7 +90,7 @@
                 <div class="clear"></div></div
             ></a>
           </li>
-          <!-- <li>
+          <li>
             <a
               class="add-to"
               id="add-to-zebra"
@@ -75,439 +115,557 @@
                 <p><strong>Add to Sileo</strong></p>
                 <div class="clear"></div></div
             ></a>
-          </li> -->
+          </li>
         </ul>
+
+        <div class="prompt" role="presentation">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1415 289">
+            <title>$ make do</title>
+            <path
+              d="M79.78 0v43.2c22.75 2.3 40.9 12.38 52.7 23.04l-14.7 15.26c-10.93-10.08-23.6-16.4-38-18.14v65.38c28.8 9.5 55.3 25.63 55.3 61.05 0 27.33-18.73 51.52-55.3 56.42v42.05h-19.6v-41.2C33.13 245.67 12.7 232.7 0 220.32l14.4-16.13c12.1 12.1 26.78 21 45.8 22.44v-79.5c-33.7-11.22-52.7-28.22-52.7-55 0-23.04 17.27-45.5 52.7-48.96V0h19.58zm-19.6 63.94c-15.54 2.6-27.06 11.52-27.06 27.93 0 13.54 6.05 22.18 27.07 30.53V63.94zm19.6 89.85v71.7c19-3.76 29.08-15.57 29.08-35.44 0-16.13-7.48-27.07-29.08-36.3z"
+              fill="#962071"
+              fill-rule="evenodd"
+            />
+            <path
+              d="M431.05 90.06c-15.27 0-25.06 8.06-33.4 20.16-4.62-15.56-15.85-20.16-27.37-20.16-15.26 0-24.77 9.2-32.83 21.02l-1.73-17.86H317V245h22.18V127.2c8.35-12.95 17-18.14 26.5-18.14 10.94 0 11.8 7.78 11.8 27.08V245h22.46V127.2c8.36-12.95 17.28-18.14 26.5-18.14 10.94 0 11.8 7.78 11.8 27.08V245h22.18V132.1c0-34.84-14.68-42.04-29.37-42.04zm179.73 121.82c0 12.1 3.74 16.7 12.38 19.3l-6.05 17.28c-12.93-1.73-23.6-7.78-27.62-21.6-10.94 14.1-27.93 21.3-47.52 21.3-30.52 0-48.96-18.42-48.96-46.65 0-31.1 25.05-48.64 70.84-48.64h22.47v-12.38c0-22.18-13.52-30.24-36-30.24-10.06 0-23.9 2.3-39.44 7.77l-6.62-18.43c18.72-6.62 34.84-9.5 49.82-9.5 37.73 0 56.74 19 56.74 48.96v72.86zm-62.8 18.14c15 0 29.4-8.06 38.32-21.6v-38.88h-21.9c-33.4 0-45.5 12.1-45.5 31.68 0 19 9.22 28.8 29.1 28.8zM682.64 29.3l-24.2 2.87V245h24.2V29.3zm101.1 63.92h-31.1l-67.4 68.84 74.6 82.94h31.95l-76.05-83.23 67.97-68.55zm53.08 84.4c1.16 35.12 20.74 50.4 44.07 50.4 15.54 0 27.06-4.62 40.6-13.55l11.22 16.13c-14.1 10.94-33.1 17.57-51.83 17.57-44.36 0-69.4-31.68-69.4-78.9 0-45.8 25.62-79.2 65.94-79.2 38.3 0 61.92 28.5 61.92 74.58 0 5.18-.3 9.8-.58 12.96h-102zm40.9-67.7c-22.46 0-38.88 15.85-40.9 49.26h78.92c-.57-32.55-14.97-49.25-38-49.25zm341.62-80.63l24.2 2.85V245h-21.32l-2.3-19.87c-11.23 15.84-26.5 23.04-42.9 23.04-39.76 0-57.9-31.68-57.9-78.9 0-45.52 22.17-79.2 59.33-79.2 17.56 0 30.52 6.32 40.9 18.13V29.3zm-34.56 80.32c-25.05 0-39.45 19.58-39.45 59.62 0 39.45 12.68 59.6 36.58 59.6 17.3 0 29.1-11.5 37.46-24.18V129.2c-8.35-12.37-20.45-19.57-34.56-19.57zM1349 90.06c42.63 0 65.1 31.1 65.1 78.9 0 46.66-23.05 79.2-65.4 79.2-42.6 0-65.36-31.1-65.36-78.9 0-46.66 23.04-79.2 65.66-79.2zm0 19.87c-26.2 0-39.45 19-39.45 59.33 0 40.32 12.96 59.04 39.16 59.04 26.24 0 39.2-18.72 39.2-59.33 0-40.03-12.96-59.04-38.9-59.04z"
+              fill="#333"
+              fill-rule="evenodd"
+            />
+          </svg>
         </div>
-</body>
-<body id="body" class="layout-dark">
-<div class="statusbar-overlay"></div>
-<div class="views tabs navbar-through toolbar-through">
-<div id="tab-1" class="view view-main tab active">
-<div class="pages">
-<div>
-<div class="page-content">
-<div class="content-block">
-<h5 style="margin-bottom:0px;margin-top:-80px;">
-JAILBREAK & TWEAKED APPS</h5>
-<h1 class="header" style="margin-top:0px; margin-bottom:0px; color:#38A1F3; font-size: 24px">IPA.MTCHI.NET</h1>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6363033081941514"
-     crossorigin="anonymous"></script>
-<div style="margin-top: -58px; width:100%; text-align:right;">
-<br/><br/><br/></div>
-<div class="hr"></div>
-<center>
-<br/>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 336x280 -->
-<!-- <ins class="adsbygoogle"
-     style="display:inline-block;width:336px;height:280px"
-     data-ad-client="ca-pub-6363033081941514"
-     data-ad-slot="6224813296"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+      </div>
 
-<div class="content-block" style="max-width:414px; margin: 16px; margin-left: -16px;">
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            IconCert 14
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>IconCert 14</h1>
+              <h3>
+                Show remaining certificate time on app icon
+              </h3>
+              <p>
+                Features:<br />
+                - Show remaining certificate time on app icon<br />
+                - Custom styles (opacity, animation, time format)<br />
+                - Support iOS 13 - 14<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/mtchis">https://www.paypal.me/mtchis</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/iconcert">https://github.com/mtchis/iconcert</a>
+                <br /><br />
+                <img src="images/iconcert14.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="block" style="margin-left:30px;">
-<p class="row"><span style="width: calc((100% - 15px*1) / 2);"><a target="_blank" href="https://www.facebook.com/mthchi/" class="button button-fill button-big color-blue external">FACEBOOK ADMIN</a></span> <span style="width: calc((100% - 15px*1) / 2);"><a target="_blank" href="https://mtchi.net/donate" class="button button-fill button-big color-pink external">ỦNG HỘ</a></span></p>
-<p class="row"><span style="width: calc((100% - 15px*1) / 2);"><a target="_blank" href="https://repo.mtchi.net" class="button button-fill button-big color-green external">SOURCE</a></span> <span style="width: calc((100% - 15px*1) / 2);"><a target="_blank" href="https://mtchi.net" class="button button-fill button-big color-orange external">TIn TỨC</a></span></p>
-</div>
-<br/>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            The Shy
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>The Shy</h1>
+              <h3>
+                Dim icons or labels after inactivity
+              </h3>
+              <p>
+                Features:<br />
+                - Dim icons or labels after inactivity<br />
+                - Custom delay time<br />
+                - Custom icons or labels opacity<br />
+                - Support iOS 14<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/mtchis">https://www.paypal.me/mtchis</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/the-shy">https://github.com/mtchis/the-shy</a>
+                <br /><br />See demo video <a href="https://www.reddit.com/r/jailbreak/comments/m2tpom/free_release_thy_shy_dim_home_screen_icons_or/">here</a>
+                <img src="images/the-shy-banner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<br/>
-<div class="app-card-2">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6363033081941514"
-     crossorigin="anonymous"></script>
-<div class="list-block media-list">
-<ul>
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/unc0ver.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Unc0ver</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://app.app-valley.vip/plists/1574/install.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()" onclick="openNav()"><b>GET 1</b></a> 
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/Unc0ver_k.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()" onclick="openNav()"><b>GET 2</b></a>
-<a href="itms-services://?action=download-manifest&url=https://app.app-valley.vip/plists/1574/install.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()" onclick="openNav()"><b>GET 3</b></a> 
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/Unc0ver_k.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()" onclick="openNav()"><b>GET 4</b></a>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Microsoft Detection Bypass
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Microsoft Detection Bypass</h1>
+              <h3>
+                Free Microsoft Apps Detection Bypass
+              </h3>
+              <p>
+                Features:<br />
+                - Bypass Jailbreak Detection for Microsoft Enterprise Apps:<br />
 
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">8.0.2</div></div>
-    <div class="chip"><div class="chip-label">11.0 - 14.8</div></div>
-</div>
-</div>
-</div>
+                <small>Outlook, Teams, Word, Excel, PowerPoint, Office 365, OneNote, Power Apps, OneDrive, OneNote, Skype for Business, Edge, SharePoint, Company Portal</small><br /><br />
+                - Support iOS 12-14<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/mtchis">https://www.paypal.me/mtchis</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                <img src="images/microsoft-detection-bypass.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/Taurine.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Taurine</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://file.ipa-apps.me/plist/Taurine_k.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()" onclick="openNav()"><b>GET 1</b></a> 
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/Taurine_k.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.1.1</div></div>
-    <div class="chip"><div class="chip-label">14.0 - 14.3</div></div>
-</div>
-</div>
-</div>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            TikTok God
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>TikTok God</h1>
+              <h3>
+                The best free & open source tweak for TikTok app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - Hide Ads<br />
+                - Download without watermark<br />
+                - Auto scroll to next video<br />
+                - Change Region (may not work for iPad and some devices)<br />
+                - Show progress bar (for fast forward or rewind video)<br />
+                - Can hide UI (view video in full screen)<br />
+                - Support iOS 12 - 14 & latest TikTok version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/mtchis">https://www.paypal.me/mtchis</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/tiktok-god">https://github.com/mtchis/tiktok-god</a>
+                <br /><br />
+                <img src="images/tiktokgodbanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/OdysseyJB.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>OdysseyJB</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://app.app-valley.vip/plists/1663/install.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()" onclick="openNav()"><b>GET 1</b></a>
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/OdysseyJB_k.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.2.2</div></div>
-    <div class="chip"><div class="chip-label">13.0 - 13.7</div></div>
-</div>
-</div>
-</div>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Messenger No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Messenger No Ads</h1>
+              <h3>
+                The best free & open source tweak for Messenger app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - Hide Ads<br />
+                - Disable Read Receipt (Support Control Center to quick turn on/off)<br />
+                - Disable Typing Indicator<br />
+                - Hide Search Bar, Stories row, People tab, Hide Suggested Contact in Search<br />
+                - Extend Story Video Upload Length (from default is 20 seconds to 10 minutes)<br />
+                - Support iOS 12 - 14 & latest Messenger version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/mtchis">https://www.paypal.me/mtchis</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/messenger-no-ads">https://github.com/mtchis/messenger-no-ads</a>
+                <br /><br />
+                <img src="images/mnabanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/Chimera.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Chimera</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://app.app-valley.vip/plists/1589/install.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 1</b></a>
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/ChimeraJB_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.6.2</div></div>
-    <div class="chip"><div class="chip-label">11.0 - 12.5</div></div>
-</div>
-</div>
-</div>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Instagram No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Instagram No Ads</h1>
+              <h3>
+                Free & Open Source Tweak for Instagram
+              </h3>
+              <p>
+                Features:<br />
+                - Remove Ads (New Feeds and Stories)<br />
+                - Can save media (Photos, Videos, IGTV, Stories, Reels, press and hold to show download option)<br />
+                - Can Save HD Profile Picture (Press and hold to show download option)<br />
+                - Show like count<br />
+                - Determine if user is following you<br />
+                - Disable DM seen and Story seen receipt<br />
+                - Unlimited Replay Direct Messages<br />
+                - Like confirmation<br />
+                - Add App lock (use faceid/touchid to unlock)<br />
+                - Support iOS 12 - 14 & latest Instagram version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/mtchis">https://www.paypal.me/mtchis</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/instagram-no-ads">https://github.com/mtchis/instagram-no-ads</a>
+                <br /><br />
+                <img src="images/instanoads.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/Chimera.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Chimera (cũ)</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/chimera-old.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 1</b></a>
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/ChimeraJB_oldv_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.6.2</div></div>
-    <div class="chip"><div class="chip-label">12.0 - 12.1.4</div></div>
-</div>
-</div>
-</div>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Facebook No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Facebook No Ads</h1>
+              <h3>
+                Free & open source tweak for Facebook app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - Remove Ads<br />
+                - Can Download Video (long press to download) & Stories<br />
+                - Can Only Me Profile Picture<br />
+                - Disable Story Seen (See friends's story without letting them know)<br />
+                - Hide Composer on News Feed<br />
+                - Hide Stories on News Feed<br />
+                - Support iOS 12 - 14 & latest Facebook version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/mtchis">https://www.paypal.me/mtchis</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/facebook-no-ads">https://github.com/mtchis/facebook-no-ads</a>
+                <br /><br />
+                <img src="images/fnabanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/th0r.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Th0r</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/Th0r.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 1</b></a> 
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/Th0r_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.0.2</div></div>
-    <div class="chip"><div class="chip-label">12.0 - 12.4</div></div>
-</div>
-</div>
-</div>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Twitter No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Twitter No Ads</h1>
+              <h3>
+                The best free & open source tweak for Twitter app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - Remove Ads<br />
+                - Remove Fleets<br />
+                - Hide News and Trending posts in search tab<br />
+                - Hide who to follow section<br />
+                - Can Save Video (long press on video to save)<br />
+                - Skip analytic URL when open a link<br />
+                - Lightweight<br />
+                - Support iOS 12 - 14 & latest Twitter version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/mtchis">https://www.paypal.me/mtchis</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/twitter-no-ads">https://github.com/mtchis/twitter-no-ads</a>
+                <br /><br />
+                <img src="images/tnabanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/th0r.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Th0r 4</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/Th0r.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 1</b></a> 
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/Th0r4_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.2.5-1</div></div>
-    <div class="chip"><div class="chip-label">13.0 - 13.5</div></div>
-</div>
-</div>
-</div>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Twitch No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Twitch No Ads</h1>
+              <h3>
+                The best free & open source tweak for Twitch app on iOS
+              </h3>
+              <p>
+                Features:<br />
+                - No Ads<br />
+                - Can save clip (live/stream video is currently not supported, press and hold on clip video to show
+                download option)<br />
+                - Support iOS 12 - 14 & latest Twitch version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone
+                <br />
+                If you want to support, you can buy me a coffee at
+                <a href="https://www.paypal.me/mtchis">https://www.paypal.me/mtchis</a>
+                <br />
+                <br />
+                Thanks a ton!
+                <br /><br />
+                <img src="images/twitchnoads.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/electra1131_vfs.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Electra</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/Electra1141.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 1</b></a>
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/ElectraJB_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.3.2</div></div>
-    <div class="chip"><div class="chip-label">11.4 - 11.4.1</div></div>
-</div>
-</div>
-</div>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Reddit No Ads
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Reddit No Ads</h1>
+              <h3>
+                Free & Open Source Tweak for Reddit
+              </h3>
+              <p>
+                Features:<br />
+                - Remove Ads (New Feeds and Comments)<br />
+                - Support iOS 12 - 14 & latest Reddit version<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone<br />
+                If you want to support, you can buy me a coffee at https://www.paypal.me/mtchis<br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/reddit-no-ads">https://github.com/mtchis/reddit-no-ads</a>
+                <br /><br />
+                <img src="images/rnabanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Look Screen Without Button
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Look Screen Without Button</h1>
+              <h3>
+                Simple tweak to lock Screen without button, just double tap from Home
+              </h3>
+              <p>
+                - Super light weight. No battery affect. Just install, no preferences<br />
+                - Support iOS 12 - 14<br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/lock-screen-without-button"
+                  >https://github.com/mtchis/lock-screen-without-button</a
+                >
+                <br /><br />
+                <img src="images/lockscreenwithoutbutton.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/meridian.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Meridian</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/Meridian.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 1</b></a>
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/Meridian_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.0</div></div>
-    <div class="chip"><div class="chip-label">10.0 - 10.3.3</div></div>
-</div>
-</div>
-</div>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            EmojiKey++
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>EmojiKey++</h1>
+              <h3>
+                - Show Emoji key in keyboard for iphone 5, 6, 7, 8<br />
+                - Support iOS 12 - 14<br />
+              </h3>
+              <p>
+                Open source at:
+                <a href="https://github.com/mtchis/dictation-key-hook">https://github.com/mtchis/dictation-key-hook</a>
+                <br /><br />
+                <img src="images/emojikeyppbanner.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/h3lix.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>H3lix</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/h3lix.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 1</b></a>
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/H3lix_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">RC6</div></div>
-    <div class="chip"><div class="chip-label">10.0 - 10.3.4</div></div>
-</div>
-</div>
-</div>
-
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/yalu.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Yalu102 </b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/yalu102.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 1</b></a>
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/yalu102_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">B7</div></div>
-    <div class="chip"><div class="chip-label">10.0 - 10.2</div></div>
-</div>
-</div>
-</div>
-
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/pangu.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Pangu</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/pangu.plist" class="button button-fill button-round" style="margin-right: 5px; background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 1</b></a>
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/pangu_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET 2</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.0</div></div>
-    <div class="chip"><div class="chip-label">9.2 - 9.3.3</div></div>
-</div>
-</div>
-</div><script>var fuckAdBlock = undefined;</script>
-    <script src="SITE_URLjs/fuckadblock.js"></script>
-</ul>
-</div>
-<br>
-</div>
-<br/>
-
-<br/>
-<div class="app-card-2">
-<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
-<h4 style="margin:0px;">TWEAKED APPS</h4>
-<h2 class="header" style="margin:0px;">TWEAKED</h2>
-</div>
-<div class="list-block media-list">
-<ul>
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/spotify.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Spotify++</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://file.jb-apps.me/plist/Spotify_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">8.5.7</div></div>
-    <div class="chip"><div class="chip-label">Spotify</div></div>
-</div>
-</div>
-</div>
-
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/twitter.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Twitter++</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://file.ipa-apps.me/plist/Twitter2_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">8.23+</div></div>
-    <div class="chip"><div class="chip-label">Twitter, Inc.</div></div>
-</div>
-</div>
-</div>
-
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/whatsapp.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Watusi2</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://file.ipa-apps.me/plist/Watusi2_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">2.21.11</div></div>
-    <div class="chip"><div class="chip-label">Watusi</div></div>
-</div>
-</div>
-</div>
-
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/youtube.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Cercube 5</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://file.ipa-apps.me/plist/Cercube_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">15.42.2</div></div>
-    <div class="chip"><div class="chip-label">Majd Alfhaily</div></div>
-</div>
-</div>
-</div>
-
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/youtube.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Youtube++</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://file.ipa-apps.me/plist/YouTubeOld_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">13.11.6</div></div>
-    <div class="chip"><div class="chip-label">Google LLC</div></div>
-</div>
-</div>
-</div>
-
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/instagram.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Instagram++</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://file.ipa-apps.me/plist/instagramPls2_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">128.0</div></div>
-    <div class="chip"><div class="chip-label">Instagram, Inc.</div></div>
-</div>
-</div>
-</div>
-
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/tiktok.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>TikTok++</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://file.ipa-apps.me/plist/TikTok_lol.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">18.0.0</div></div>
-    <div class="chip"><div class="chip-label">Michael Lema</div></div>
-</div>
-</div>
-</div>
-    
-<div class="item-content">
-<div class="item-media">
-<img class="app-icon" src="./images/facebook.png"></div>
-<div class="item-inner">
-<div class="item-title-row">
-<div class="item-title"><b>Facebook++</b></div>
-<div class="item-after">
-<a href="itms-services://?action=download-manifest&url=https://ipa.kenhtao.net/plists/tweak/facebook++.plist" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;" onclick="openNav()"><b>GET</b></a>
-</div>
-</div>
-<div class="item-subtitle">
-    <div class="chip"><div class="chip-label">1.0</div></div>
-    <div class="chip"><div class="chip-label">Facebook, Inc.</div></div>
-</div>
-</div>
-</div><br/>
-  <center>
-      <div id="fb-root"></div>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3&appId=310782786365633&autoLogAppEvents=1"></script>
-      <div class="fb-page" data-href="https://www.facebook.com/mtctips.fanpage/" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/mtctips.fanpage/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/mtctips.fanpage/">MTC Tips</a></blockquote></div>
-  </center>
-    <br/>
-</ul>
-</div>
-<br>
-</div>
-</div>
-</center>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</body>
+      <article class="article intro">
+        <header>
+          <p class="date">
+            IOS TWEAK
+          </p>
+          <h2>
+            Weather Plus
+          </h2>
+        </header>
+        <section class="content">
+          <ul>
+            <li>
+              <h1>Weather Plus</h1>
+              <h3>
+                Tweak Add date to each day row to Weather app
+              </h3>
+              <p>
+                Features:<br />
+                - Add the date next to each day<br />
+                - Custom format (dd/MM, MM/dd, etc,...)<br />
+                - Support iOS 12 - 14<br />
+                <br />
+                I work very hard to make good, free and open source tweaks for everyone<br />
+                If you want to support, you can buy me a coffee at https://www.paypal.me/mtchis<br />
+                <br />
+                Open source at:
+                <a href="https://github.com/mtchis/weather-plus">https://github.com/mtchis/weather-plus</a>
+                <br /><br />
+                <img src="images/wpppref.jpg" />
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+  </body>
 </html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+mtchis/mtchis.github.io: My Github pagemtchis/mtchis.github.io: My Github pagemtchis.github.io/index.html at master · mtchis/mtchis.github.io
